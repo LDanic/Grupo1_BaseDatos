@@ -19,7 +19,7 @@ CREATE TABLE bills(
 );
 
 CREATE TABLE users(
-	users_identification INTEGER NOT NULL,
+	users_id INTEGER NOT NULL,
 	users_name VARCHAR(50) NOT NULL,
 	users_surname VARCHAR(50) NOT NULL,
 	users_password TEXT NOT NULL,
