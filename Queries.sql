@@ -19,7 +19,7 @@ WHERE products_id = 1;
 SELECT *FROM products WHERE products_id IN(4, 6);
 
 --Traer descripcion y precio de un producto a partir del ID--
-SELECT products_description, products_price FROM products WHERE products_id IN(4, 6);
+SELECT products_name, products_price FROM products WHERE products_id IN(4, 6);
 
 --Traer facturas dependiendo de la fecha--
 SELECT *FROM bills WHERE bill_date BETWEEN '2019-01-01' AND '2021-12-30';
